@@ -1,0 +1,78 @@
+
+
+ :root {
+    --color-white : #fff;
+    --color-black : #000;
+    --color-background : #F5F5F5;
+    --header-height : 120px;
+    --navbar-height : 36px;
+    --search-height : calc(var(--header-height) - var(--navbar-height))
+ }
+ * {
+    box-sizing: inherit;
+}
+
+
+html {
+    font-size: 13px;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: Helvetica, sans-serif; */
+    /* font-family: 'Helvetica Neue', sans-serif; */
+   
+    box-sizing: border-box;
+}
+.grid {
+    width: 1200px;
+    margin: auto;
+    /* height: 100%; */
+}
+.font-icon-16 {
+    font-size: 16px;
+    color: var(--color-white);
+}
+.mt-8 {
+    margin-top: 8px;
+}
+.app-shoppe {
+    background-color: #F5F5F5;
+    /* display: none; */
+}
+@keyframes fakeIn {
+    from {
+        0
+    }
+    to {
+        1
+    }
+}
+@keyframes scaleNotice {
+    from {
+       transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+
+    }
+}
+@keyframes scaleCart {
+    from {
+       transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+
+    }
+    
+}
+@keyframes zommicon {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+.border-right {
+    border-color: #e5e7eb transparent transparent transparent !important;
+}
