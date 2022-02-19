@@ -7,7 +7,7 @@
     height: 120px;
     position: fixed;
     top : 0;
-    z-index: 999999;
+    z-index: 99999;
 }
 ul.header-navbar__list {
     display: flex;
@@ -702,7 +702,7 @@ button.header-navbar__name.registration-js {
     bottom: 0;
     background-color: white;
     display: none;
-    z-index: 9999;
+    z-index: 999999;
 }
 .modal-login {
     position: fixed;
@@ -712,7 +712,7 @@ button.header-navbar__name.registration-js {
     bottom: 0;
     background-color: white;
     display: none;
-    z-index: 9999; 
+    z-index: 999999; 
 }
 .modal-content__list {
     display: flex;
