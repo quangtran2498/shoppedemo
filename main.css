@@ -5,6 +5,9 @@
     width: 100%;
     background: linear-gradient(-180deg,#f53d2d,#f63);
     height: 120px;
+    position: fixed;
+    top : 0;
+    z-index: 999999;
 }
 ul.header-navbar__list {
     display: flex;
@@ -414,7 +417,7 @@ img.header-navbar__search-product__image {
 
 
 .content {
-   
+    margin-top: 140px;
 }
 .content-benner {
     margin-top: 30px;
